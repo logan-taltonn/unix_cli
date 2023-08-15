@@ -20,7 +20,6 @@ private:
     std::string cmd;
     // list of quoted strings in command
     std::vector<std::string> inner_strings;
-
     // whether or not the command should be run in the background
     bool bg;
 

@@ -24,14 +24,11 @@ private:
 public:
     // vector of commands
     std::vector<Command*> commands;
-    
     // constructor - takes CLI input and calls internal convenience
     //               functions to tokenize into commands
     Tokenizer (const std::string _input);
-
     // destructor - deletes pointers in vector and erases elements
     ~Tokenizer ();
-
     // boolean function to return if error ocurred during parsing
     bool hasError ();
 
